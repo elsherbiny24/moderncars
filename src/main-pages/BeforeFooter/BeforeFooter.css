@@ -1,0 +1,28 @@
+.bg-image-testimonal{
+    background-image: url("../../assests2/h1-img-13.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center center;
+}
+
+.bg-image-testimonal{
+    content: "";
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.bgimagetestimonal{
+    background-color: rgb(12,19,21);
+}
+
+.bgimagetestimonalLight{
+    background-color: #fff;
+}
+
+.TextColorBeforeFooter{
+    color: #a6a6a6;
+}
+
+.TextColorBeforeFooter2{
+    color: black !important;
+}

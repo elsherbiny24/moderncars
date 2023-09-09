@@ -1,0 +1,15 @@
+.num21::after{
+    content: "+";
+    position: absolute;
+    right: -30px;
+    top: 10%;
+    font-size: 50px;
+}
+
+.num157::after{
+    content: "K";
+    position: absolute;
+    right: -15px;
+    bottom: 10%;
+    /* font-size: 60px; */
+}

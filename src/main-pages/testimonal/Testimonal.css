@@ -1,0 +1,35 @@
+.slick-next,
+.slick-prev {
+    display: none !important;
+}
+
+.slick-border {
+    position: relative;
+}
+
+.slick-border::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    /* border: .5px solid #413f3f45; */
+    width: 1.6px;
+    background-color: #413f3f45;
+}
+
+.num-before {
+    position: relative;
+}
+
+.num-before::before {
+    content: "$";
+    position: absolute;
+    top: 0;
+}
+
+.num-before::after {
+    content: "/h";
+    position: absolute;
+}
+

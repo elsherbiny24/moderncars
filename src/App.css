@@ -1,0 +1,15 @@
+.showbtn{
+    visibility: visible;
+    opacity: 1;
+    transition: .5s linear;
+}
+
+.hidebtn{
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s linear;
+}
+
+.bgFooterDark{
+    background-color: #0C1315 !important;
+}

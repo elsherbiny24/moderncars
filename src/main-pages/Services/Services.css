@@ -1,0 +1,51 @@
+.services-sec {
+    background-color: rgb(20, 26, 28);
+}
+
+.services-div1 {
+    background-image: url("");
+}
+
+.services-number::before {
+    content: "$";
+    font-size: 22px;
+
+}
+
+
+/* .services-div1{
+    position: relative;
+} */
+
+.services-div1 {
+    position: relative;
+}
+
+.services-div1:hover .services-overlay {
+    visibility: visible;
+    opacity: 1;
+}
+
+.services-overlay {
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s linear;
+}
+
+.services-overlay {
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.services-overlay-shown {
+    position: relative;
+}
+
+.services-overlay-shown::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .4);
+}

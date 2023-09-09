@@ -1,0 +1,121 @@
+.bg-about-image {
+    background-image: url("../../assests2/inner-ab-img-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ImageHeight {
+    height: 645px;
+    ;
+}
+
+@media (max-width: 1450px) {
+    .ImageHeight {
+        height: 460px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .ImageHeight {
+        height: 550px;
+    }
+}
+
+@media (max-width: 767px) {
+    .ImageHeight {
+        height: 260px;
+    }
+}
+
+.bg-slider-car {
+    background-color: #f7f5f2;
+}
+
+.bgFooterLight {
+    background-color: #fff;
+}
+
+.bgimagetestimonalLight {
+    background-color: #fff;
+}
+
+.aboutCom3Num::before {
+    content: "$";
+    position: absolute;
+    left: -10px;
+    top: 10%;
+    font-size: 20px;
+}
+
+.aboutCom3Num::after {
+    content: "/hour";
+    position: absolute;
+    right: -50px;
+    bottom: 10%;
+    font-size: 20px;
+}
+
+.Plus .xPlus {
+    width: 12px;
+    height: .5px;
+}
+
+.Plus .yPlus {
+    width: .5px;
+    height: 12px;
+}
+
+
+.mk {
+    width: 97% !important;
+}
+
+.btn-slider-about {
+    font-size: 13px;
+    font-weight: 100;
+    letter-spacing: 3px !important;
+    border: 1px solid #bfa37c !important;
+    color: "#0c131";
+    font-family: Inconsolata, sans-serif !important;
+}
+
+.slider-btn-before::before {
+    content: "+";
+    position: absolute;
+    left: 13%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 15px;
+    transition: .3s ease-in-out;
+}
+
+.slider-btn-before:hover:before {
+    content: "";
+    transition: .3s ease-in-out;
+    position: absolute;
+    left: 13%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 7px;
+    height: 7px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+
+.item1 {
+    border: 0 !important;
+    border-bottom: 1px solid rgb(205, 203, 203) !important;
+    padding-bottom: 10px !important;
+}
+
+.AccordionHeader {
+    font-size: 25px;
+}
+
+.bg-about-image-2 {
+    background-image: url("../../assests2/vehicle-list-title-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

@@ -1,0 +1,98 @@
+.cars-fleet{
+    width: 100%;
+    min-height: 100vh;
+    padding: 70px 20px;
+}
+.cars-fleet .row-contact{
+    display: flex;
+    justify-content: center;
+}
+.cars-fleet .contact-cars{
+    margin-right: 90px;
+    margin-bottom: 40px;
+}
+.cars-fleet .conant{
+    min-height: 620px;
+    width: 380px;
+    background-color: #f7f5f2;
+    margin-right: 20px;
+    padding-top: 30px;
+    padding-left: 35px;
+    display: flex;
+    padding-right: 30px;
+    flex-direction: column;
+}
+.cars-fleet .conant .img-conyact{
+    height: 200px;
+}
+.cars-fleet .conant img{
+    width: 320px;
+}
+.cars-fleet .conant .img-jep{
+    width: 280px;
+    display: inline-block;
+    margin-top: 40px;
+}
+.cars-fleet .conant h4{
+    margin-top: 30px;
+}
+.cars-fleet .conant .icons{
+    display: flex;
+    margin-bottom: 30px;
+}.cars-fleet .conant .icons span{
+    margin-left: 8px;
+    color: #bfa37c;
+}
+.cars-fleet .conant p{
+    color: #404040;
+    font-size: 20px;
+    font-weight: 500;
+}
+.cars-fleet .conant h3{
+    font-size: 45px;
+    position: relative;
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+.cars-fleet .conant h3 span{
+    font-size: 22px;
+   position: absolute;
+   left: 0;
+   top: 5px;
+}
+.cars-fleet .conant h3 small{
+    font-size: 18px;
+}
+.cars-fleet .conant .link__div{
+    width: 90%;
+    height: 65px;
+    border: #bfa37c 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cars-fleet .conant .link__div .link{
+    text-decoration: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #404040;
+    font-size: 14px;
+    letter-spacing: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cars-fleet .conant .link__div .link span{
+    margin-right: 8px;
+    font-size: 18px;
+    font-weight: 100;
+}
+.cars-fleet .conant .link__div .link:hover span{
+    display: none;
+}
+@media (max-width:600px) {
+    .cars-fleet .conant{
+       
+        margin: auto;
+    }
+}

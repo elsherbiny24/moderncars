@@ -1,0 +1,25 @@
+
+.footer-li-before{
+    visibility: hidden !important;
+    opacity: 0;
+    width: 0 ;
+    height: 0;
+    background-color: white;
+    border-radius: 50%;
+    transition: .2s linear;
+}
+
+.li-footer:hover .footer-li-before{
+    visibility: visible !important;
+    opacity: 1;
+    width: 4px ;
+    height: 4px;
+}
+
+.colorFooterLight{
+    color: #fff;
+}
+
+.bgFooterDark{
+    background-color: #000;
+}
